@@ -6,21 +6,22 @@
     <meta name="description" content="This is a page containing cards of all players of the team">
 </head>
 <body>
-    <h1 align="center">Team name
-    <img src="tu wstaw ścieżkę do obrazka" alt="Team crest">
-    </h1>
-    <h2 align="left">Player's cards</h2>
-    <table align="center">
-        <tr>
-            <td>Example player card 1</td>
-            <td>Example player card 2</td>
-            <td>Example player card 3</td>
-            <td>Example player card 4</td>
-        </tr>
-    </table>
-    <p align="center">
-        <button type="button"><a href="team_comparison_page.html">Team comparison page</a></button>
-    </p>
-
+    <header>
+        <h1 class="team-name">Team name (is going to be loaded with proper team crest)
+            <img src="assets/ruch.jpg" alt="Is going to be filled with proper team name">
+        </h1>
+    </header>
+    <section class="player-cards">
+        <h1>Players' cards</h1>
+        <div class="player-cards__player-card">Example player card 1</div>
+        <div class="player-cards__player-card">Example player card 2</div>
+        <div class="player-cards__player-card">Example player card 3</div>
+        <div class="player-cards__player-card">Example player card 4</div>
+    </section>
+    <nav class="navigation">
+        <button class="button button__team-comparison-page" type="button">
+            <a href="team_comparison_page.html">Team comparison page</a>
+        </button>
+    </nav>
 </body>
 </html>

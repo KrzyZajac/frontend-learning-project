@@ -1,0 +1,129 @@
+body {
+    background-color: palegoldenrod;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    color: dodgerblue;
+    height: 100%;
+}
+
+h1 {
+    font-size: 28px;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+a:link {
+    text-decoration: none;
+    font-style: normal;
+    color: dodgerblue;
+}
+
+.best-player-cards {
+    margin-top: 20px;
+}
+
+#best_players_cards__header {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#best_players_cards__cards {
+    margin: auto;
+}
+
+.player-card {
+    width: 180px;
+    height: 250px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+.player-card__best-player-card {
+    background-color: goldenrod;
+    display: inline-block;
+}
+
+.player_card__photo {
+    text-align: center;
+    margin: 5px
+}
+
+.player_card__photo img {
+    width: 90px;
+    height: 120px;
+}
+
+.player-card__name {
+    min-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    border-bottom: black 1px solid;
+}
+
+.player-card-stats {
+    width: 180px;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 3px;
+    font-weight: 700;
+    float: left;
+}
+
+.player-card-stats__key {
+    text-align: left;
+    width: 100px;
+    float: left;
+}
+
+.player-card-stats__value {
+    text-align: center;
+    width: 75px;
+    float: left;
+}
+
+footer {
+    clear: both;
+    background-color: peachpuff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    height: 60px;
+    width: 100%;
+    
+}
+
+.navigation {
+    margin: 10px;
+    padding: 20px;
+}
+
+.button {
+    width: 240px;
+    min-height: 40px;
+    border: cornflowerblue 2px solid;
+    background-color: lightblue;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button:hover {
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+
+
+/* Komentarz
+    . oznacza klasę- wielokrotnie użyty element
+    # oznacza id- unikatowy element
+*/

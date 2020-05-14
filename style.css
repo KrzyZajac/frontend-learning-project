@@ -97,29 +97,75 @@ footer {
     padding-top: 10px;
     height: 60px;
     width: 100%;
-    
 }
 
 .navigation {
-    margin: 10px;
+    width: 300px;
+    margin-top: 10px;
     padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .button {
-    width: 240px;
-    min-height: 40px;
+    width: 100px;
+    min-height: 20px;
     border: cornflowerblue 2px solid;
     background-color: lightblue;
     text-align: center;
-    font-size: 36px;
-    font-weight: bold;
+    font-size: 16px;
+    color: cornflowerblue;
     margin-right: auto;
     margin-left: auto;
+}
+
+.main_navigation > .button__team-comparison-page {
+    width: 240px;
+    min-height: 40px;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .button:hover {
     background-color: lightskyblue;
     cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.teams {
+    display: inline-block;
+}
+
+.home-team {
+    height: 400px;
+    width: 300px;
+}
+
+.choose-team img {
+    width: 200px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.choose-team {
+    display: inline-block;
+}
+
+.separator {
+    height: 400px;
+    width: 100px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    background-color: slategrey;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
 }
 
 

@@ -13,24 +13,26 @@ h1 {
     letter-spacing: 2px;
 }
 
-a:link {
-    text-decoration: none;
-    font-style: normal;
-    color: dodgerblue;
-}
 
 .best-player-cards {
     margin-top: 20px;
+    margin-bottom: 80px;
 }
 
-#best_players_cards__header {
+.best_players_cards__header {
     font-size: 24px;
     text-align: center;
     margin-bottom: 20px;
 }
 
-#best_players_cards__cards {
-    margin: auto;
+.best_players_cards__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-cards {
+    margin-bottom: 80px;
 }
 
 .player-card {
@@ -39,9 +41,11 @@ a:link {
     border: 1px solid black;
     margin-top: 10px;
     margin-bottom: 40px;
-    margin-left: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
     background-color: gainsboro;
     border-radius: 10px;
+    display: inline-block;
 }
 
 .player-card__best-player-card {
@@ -51,7 +55,8 @@ a:link {
 
 .player_card__photo {
     text-align: center;
-    margin: 5px
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .player_card__photo img {
@@ -60,7 +65,7 @@ a:link {
 }
 
 .player-card__name {
-    min-height: 45px;
+    min-height: 25px;
     text-align: center;
     font-size: 18px;
     font-weight: 700;
@@ -72,7 +77,7 @@ a:link {
     width: 180px;
     font-size: 14px;
     margin-left: 5px;
-    margin-top: 3px;
+    margin-top: 5px;
     font-weight: 700;
     float: left;
 }
@@ -89,34 +94,38 @@ a:link {
     float: left;
 }
 
-footer {
-    clear: both;
-    background-color: peachpuff;
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: chocolate;
     font-size: 12px;
+    color: peachpuff;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 5px;
     height: 60px;
     width: 100%;
 }
 
 .navigation {
-    width: 300px;
     margin-top: 10px;
     padding: 20px;
-    margin-right: auto;
-    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button {
-    width: 100px;
-    min-height: 20px;
+    width: 160px;
+    min-height: 40px;
     border: cornflowerblue 2px solid;
+    border-radius: 5px;
     background-color: lightblue;
     text-align: center;
     font-size: 16px;
     color: cornflowerblue;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .main_navigation > .button__team-comparison-page {
@@ -133,15 +142,15 @@ footer {
 
 .button a {
     text-decoration: none;
+    font-style: normal;
+    color: dodgerblue;
 }
 
-.teams {
-    display: inline-block;
-}
-
-.home-team {
-    height: 400px;
-    width: 300px;
+.team-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
 }
 
 .choose-team img {
@@ -155,6 +164,11 @@ footer {
     display: inline-block;
 }
 
+.teams a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
 .separator {
     height: 400px;
     width: 100px;
@@ -166,6 +180,22 @@ footer {
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
+}
+
+.team-name {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.team_crest {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.team_crest img {
+    width: 200px;
+    height: 220px;
 }
 
 

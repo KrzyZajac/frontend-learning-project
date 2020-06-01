@@ -1,0 +1,26 @@
+background: #eee8aa
+font-color: #1e90ff
+
+Player cards:
+background: #dcdcdc
+border & players' names: #000000
+best players (main page) background: #daa520
+
+Footer:
+bacground: #d2691e
+font: #ffdab9
+
+Buttons:
+font & border: #6495ed
+background: #add8e6
+hover: #87cefa
+a: #1e90ff
+
+Team comparison:
+font color: #000000
+background: #708090
+team cards background: #dcdcdc
+
+Team stats secondary background: #dcdcdc
+Team stats secondary background: #708090
+Team stats tertiary background: #a9a9a9

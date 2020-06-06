@@ -63,6 +63,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
+    width: 100%;
 }
 
 .choose-team img {
@@ -70,10 +71,38 @@ h1 {
     height: 240px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5px;
 }
 
 .choose-team {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-team__prev-team img {
+    width: 50px;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+.choose-team__next-team img {
+    width: 50px;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+.teams {
+    border: dotted 2px #000000;
+    width: 400px;
+}
+
+.home-team {
+    margin-left: 30px;
+}
+
+.away-team {
+    margin-right: 30px;
 }
 
 .teams a {
@@ -81,15 +110,49 @@ h1 {
     color: #1e90ff;
 }
 
+.team__team-name {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+}
+
+.team__competition {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    border-bottom: solid 2px #000000;
+    padding: 10px;
+    background-color: #dcdcdc;
+}
+
 .separator {
-    height: 400px;
+    height: 380px;
     width: 100px;
     text-align: center;
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 700;
     color: #000000;
     background-color: #708090;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: inline-block;
+}
+
+.versus {
+    vertical-align: middle;
+    margin-top: 150px;
+}
+
+.team__stats-summary {
+    padding: 10px;
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px #000000;
+}
+
+.team-card-stats {
+    text-align: center;
+    margin:auto;
 }

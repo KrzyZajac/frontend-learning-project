@@ -18,16 +18,16 @@
     </header>
     <section class="team-selection">
         <div class="teams home-team">
-            <div class="home-team__competition">EKSTRAKLASA</div>
-            <div class="home-team__team-name"><a href="../team_page/team_page.html">RUCH CHORZÓW</a></div>
+            <div class="team__competition">EKSTRAKLASA</div>
+            <div class="team__team-name"><a href="../team_page/team_page.html">RUCH CHORZÓW</a></div>
             <div class="choose-team">
-                <button class="choose-team choose-team__prev-team" type="button">Choose prev team</button>
+                <div class="choose-team choose-team__prev-team"><img src="../assets/icons/back.svg"></div>
                 <a href="../team_page/team_page.html">
                     <img src="../assets/crests/ruch.jpg" alt="RUCH CHORZÓW">
                 </a>
-                <button class="choose-team choose-team__next-team" type="button">Choose next team</button>
+                <div class="choose-team choose-team__next-team"><img src="../assets/icons/next.svg"></div>
             </div>
-            <div class="home-team__stats-summary">
+            <div class="team__stats-summary">
                 <div class="team-card-stats team-card-stats__defence">
                     <div class="team-card-stats__key">DEFENCE</div>
                     <div class="team-card-stats__value">100</div>
@@ -42,16 +42,18 @@
                 </div>
             </div>
         </div>
-        <div class="teams separator">VS</div>
+        <div class="teams separator">
+            <div class="versus">VS</div>
+        </div>
         <div class="teams away-team">
-            <div class="away-team__competition">EKSTRAKLASA</div>
-            <div class="away-team__team-name">GÓRNIK ZABRZE</div>
+            <div class="team__competition">EKSTRAKLASA</div>
+            <div class="team__team-name">GÓRNIK ZABRZE</div>
             <div class="choose-team">
-                <button class="choose-team choose-team__prev-team" type="button">Choose prev team</button>
+                <div class="choose-team__prev-team"><img src="../assets/icons/back.svg"></div>
                 <img src="../assets/crests/gornik.png" alt="GÓRNIK ZABRZE">
-                <button class="choose-team choose-team__next-team" type="button">Choose next team</button>
+                <div class="choose-team choose-team__next-team"><img src="../assets/icons/next.svg"></div>
             </div>
-            <div class="stats-summary">
+            <div class="team__stats-summary">
                 <div class="team-card-stats team-card-stats__defence">
                     <div class="team-card-stats__key">DEFENCE</div>
                     <div class="team-card-stats__value">20</div>
@@ -70,7 +72,9 @@
     <footer class="footer">
         <p>Copyright reserved &copy;<br />
             This project is created and owned by <span style="font-weight: 700">Krzysztof Zając</span>.
-            Mentored by Mateusz M.</p>
+            Mentored by Mateusz M. <br />
+            Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+        </p>
     </footer>
 </body>
 </html>

@@ -78,18 +78,21 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #add8e6;
 }
 
 .choose-team__prev-team img {
     width: 50px;
     height: 80px;
     margin-bottom: 50px;
+    margin-right: 10px;
 }
 
 .choose-team__next-team img {
     width: 50px;
     height: 80px;
     margin-bottom: 50px;
+    margin-left: 10px;
 }
 
 .teams {
@@ -111,10 +114,11 @@ h1 {
 }
 
 .team__team-name {
+    background-color: #add8e6;
     font-size: 24px;
     font-weight: 700;
     text-align: center;
-    margin: 10px;
+    padding: 10px;
 }
 
 .team__competition {
@@ -155,4 +159,15 @@ h1 {
 .team-card-stats {
     text-align: center;
     margin:auto;
+}
+
+.team-card-stats__key {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.team-card-stats__value {
+    font-weight: 700;
+    font-size: 16px;
 }

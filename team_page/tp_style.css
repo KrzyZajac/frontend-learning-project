@@ -1,26 +1,25 @@
 body {
-    background-color: palegoldenrod;
+    background-color: #eee8aa;
     font-family: 'Work Sans', sans-serif;
     font-size: 14px;
-    color: dodgerblue;
+    color: #1e90ff;
     height: 100%;
 }
 
-h1 {
+.h1 {
     font-size: 28px;
     font-style: normal;
     text-align: center;
     letter-spacing: 2px;
 }
 
-
 .footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: chocolate;
+    background-color: #d2691e;
     font-size: 12px;
-    color: peachpuff;
+    color: #ffdab9;
     text-align: center;
     padding-top: 5px;
     height: 60px;
@@ -37,26 +36,25 @@ h1 {
 
 .button {
     width: 160px;
-    min-height: 40px;
-    border: cornflowerblue 2px solid;
+    height: 40px;
+    border: 2px solid #6495ed;
     border-radius: 5px;
-    background-color: lightblue;
+    background-color: #add8e6;
     text-align: center;
     font-size: 16px;
-    color: cornflowerblue;
-    margin-left: 10px;
-    margin-right: 10px;
+    color: #6495ed;
+    margin: 0 10px 0;
 }
 
 .button:hover {
-    background-color: lightskyblue;
+    background-color: #87cefa;
     cursor: pointer;
 }
 
 .button a {
     text-decoration: none;
     font-style: normal;
-    color: dodgerblue;
+    color: #1e90ff;
 }
 
 .player-cards {
@@ -68,8 +66,8 @@ h1 {
 .player-card {
     width: 180px;
     height: 250px;
-    border: 1px solid black;
-    background-color: gainsboro;
+    border: 1px solid #000;
+    background-color: #dcdcdc;
     border-radius: 10px;
     display: inline-block;
 }
@@ -101,7 +99,7 @@ h1 {
     font-size: 18px;
     font-weight: 700;
     color: black;
-    border-bottom: black 1px solid;
+    border-bottom: 1px solid #000;
 }
 
 .player-card-stats {
@@ -127,12 +125,13 @@ h1 {
 
 .teams a {
     text-decoration: none;
-    color: dodgerblue;
+    color: #1e90ff;
 }
 
 .team-name {
     font-size: 40px;
     font-weight: 700;
+    text-align: center;
 }
 
 .team_crest {
@@ -149,19 +148,16 @@ h1 {
 .additional-stats {
     height: 130px;
     width: 90%;
-    margin-left: 5px;
-    margin-right: 20px;
-    margin-bottom: 80px;
+    margin: 0 20px 80px 5px;
     background-color: #dcdcdc;
-    border: #000000 solid 2px;
+    border: 2px solid #000;
     display: inline-block;
 }
 
 .player-stats {
     display: inline-block;
     width: 240px;
-    margin-left: 40px;
-    margin-bottom: 5px;
+    margin: 0 0 5px 40px;
 }
 
 .player-stats__primary {
@@ -170,11 +166,11 @@ h1 {
 }
 
 .player-stats__secondary {
-    border-left: #000000 1px solid;
+    border-left: 1px solid #000;
 }
 
 .player-stats__tertiary {
-    border-left: #000000 1px solid;
+    border-left: 1px solid #000;
 }
 
 .player-stats__stat {
@@ -187,7 +183,7 @@ h1 {
 
 .player-stats__stat--key {
     font-weight: 700;
-    color: #000000;
+    color: #000;
     margin-left: 5px;
 }
 

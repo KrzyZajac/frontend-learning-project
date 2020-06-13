@@ -6,13 +6,12 @@ body {
     height: 100%;
 }
 
-h1 {
+.h1 {
     font-size: 28px;
     font-style: normal;
     text-align: center;
     letter-spacing: 2px;
 }
-
 
 .best-player-cards {
     margin-top: 20px;
@@ -38,11 +37,8 @@ h1 {
 .player-card {
     width: 180px;
     height: 250px;
-    border: 1px solid #000000;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
+    border: 1px solid #000;
+    margin: 10px 20px 40px;
     background-color: #dcdcdc;
     border-radius: 10px;
     display: inline-block;
@@ -69,15 +65,14 @@ h1 {
     text-align: center;
     font-size: 18px;
     font-weight: 700;
-    color: #000000;
-    border-bottom: #000000 1px solid;
+    color: #000;
+    border-bottom: 1px solid #000;
 }
 
 .player-card-stats {
     width: 180px;
     font-size: 14px;
-    margin-left: 5px;
-    margin-top: 5px;
+    margin: 5px 0 0 5px;
     font-weight: 700;
     float: left;
 }
@@ -118,14 +113,13 @@ h1 {
 .button {
     width: 160px;
     min-height: 40px;
-    border: #6495ed 2px solid;
+    border: 2px solid #6495ed;
     border-radius: 5px;
     background-color: #add8e6;
     text-align: center;
     font-size: 16px;
     color: #6495ed;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px 0;
 }
 
 .main_navigation > .button__team-comparison-page {
@@ -158,6 +152,7 @@ h1 {
     height: 240px;
     margin-left: auto;
     margin-right: auto;
+    float: top;
 }
 
 .choose-team {

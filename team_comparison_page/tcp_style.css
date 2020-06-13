@@ -6,7 +6,7 @@ body {
     height: 100%;
 }
 
-h1 {
+.h1 {
     font-size: 28px;
     font-style: normal;
     text-align: center;
@@ -17,9 +17,9 @@ h1 {
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: chocolate;
+    background-color: #d2691e;
     font-size: 12px;
-    color: peachpuff;
+    color: #ffdab9;
     text-align: center;
     padding-top: 5px;
     height: 60px;
@@ -36,15 +36,14 @@ h1 {
 
 .button {
     width: 160px;
-    min-height: 40px;
-    border: #6495ed 2px solid;
+    height: 40px;
+    border: 2px solid #6495ed;
     border-radius: 5px;
-    background-color: lightblue;
+    background-color: #add8e6;
     text-align: center;
     font-size: 16px;
     color: #6495ed;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px 0;
 }
 
 .button:hover {
@@ -69,9 +68,7 @@ h1 {
 .choose-team img {
     width: 200px;
     height: 240px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5px;
+    margin: 0 auto 5px;
 }
 
 .choose-team {
@@ -84,19 +81,17 @@ h1 {
 .choose-team__prev-team img {
     width: 50px;
     height: 80px;
-    margin-bottom: 50px;
-    margin-right: 10px;
+    margin: 0 10px 50px 0;
 }
 
 .choose-team__next-team img {
     width: 50px;
     height: 80px;
-    margin-bottom: 50px;
-    margin-left: 10px;
+    margin: 0 0 50px 10px;
 }
 
 .teams {
-    border: dotted 2px #000000;
+    border: dotted 2px #000;
     width: 400px;
 }
 
@@ -125,7 +120,7 @@ h1 {
     font-size: 18px;
     letter-spacing: 2px;
     text-align: center;
-    border-bottom: solid 2px #000000;
+    border-bottom: 2px solid #000;
     padding: 10px;
     background-color: #dcdcdc;
 }
@@ -136,14 +131,13 @@ h1 {
     text-align: center;
     font-size: 48px;
     font-weight: 700;
-    color: #000000;
+    color: #000;
     background-color: #708090;
     margin: auto;
     display: inline-block;
 }
 
 .versus {
-    vertical-align: middle;
     margin-top: 150px;
 }
 
@@ -153,7 +147,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: solid 2px #000000;
+    border-top: 2px solid #000;
 }
 
 .team-card-stats {

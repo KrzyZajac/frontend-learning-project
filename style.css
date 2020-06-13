@@ -30,11 +30,7 @@ body {
     align-items: center;
 }
 
-.player-cards {
-    margin-bottom: 80px;
-}
-
-.player-card {
+.player-cards__card {
     width: 180px;
     height: 250px;
     border: 1px solid #000;
@@ -69,7 +65,7 @@ body {
     border-bottom: 1px solid #000;
 }
 
-.player-card-stats {
+.player-card__stats {
     width: 180px;
     font-size: 14px;
     margin: 5px 0 0 5px;
@@ -77,13 +73,13 @@ body {
     float: left;
 }
 
-.player-card-stats__key {
+.player-card__stat-key {
     text-align: left;
     width: 100px;
     float: left;
 }
 
-.player-card-stats__value {
+.player-card__stat-value {
     text-align: center;
     width: 75px;
     float: left;

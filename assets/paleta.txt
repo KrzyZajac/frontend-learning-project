@@ -1,13 +1,12 @@
-background: #eee8aa
 font-color: #1e90ff
 
 Player cards:
 background: #dcdcdc
-border & players' names: #000000
+border & players' names: #000
 best players (main page) background: #daa520
 
 Footer:
-bacground: #d2691e
+bacground: #000080
 font: #ffdab9
 
 Buttons:
@@ -17,7 +16,7 @@ hover: #87cefa
 a: #1e90ff
 
 Team comparison:
-font color: #000000
+font color: #000
 background: #708090
 team cards background: #dcdcdc
 

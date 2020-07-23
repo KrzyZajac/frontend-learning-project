@@ -7,7 +7,7 @@ body {
 }
 /* Background pattern from Toptal Subtle Patterns */
 
-.h1 {
+.page-title {
     font-size: 28px;
     font-style: normal;
     text-align: center;
@@ -19,13 +19,13 @@ body {
     margin-bottom: 80px;
 }
 
-.best_players_cards__header {
+.best-players-cards__header {
     font-size: 32px;
     text-align: center;
     margin-bottom: 10px;
 }
 
-.best_players_cards__cards {
+.best-players-cards__cards {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,13 +41,13 @@ body {
     display: inline-block;
 }
 
-.player_card__photo {
+.player-card__photo {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 5px;
 }
 
-.player_card__photo img {
+.player-card__photo img {
     width: 90px;
     height: 120px;
 }

@@ -1,0 +1,156 @@
+body {
+    background-image: url(../assets/moroccan-flower-dark.png);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    color: #1e90ff;
+    height: 100%;
+}
+/* Background pattern from Toptal Subtle Patterns */
+
+.page-title {
+    font-size: 28px;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #000080;
+    font-size: 12px;
+    color: #ffdab9;
+    text-align: center;
+    padding-top: 5px;
+    height: 60px;
+    width: 100%;
+}
+
+.navigation {
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 160px;
+    height: 50px;
+    border: 2px solid #6495ed;
+    border-radius: 5px;
+    background-color: #add8e6;
+    text-align: center;
+    font-size: 16px;
+    color: #6495ed;
+    margin: 0 10px 0;
+}
+
+.button:hover {
+    background-color: #87cefa;
+    cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+    font-style: normal;
+    color: #1e90ff;
+}
+
+.team-selection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+.choose-team img {
+    width: 200px;
+    height: 240px;
+    margin: 0 auto 5px;
+}
+
+.choose-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #add8e6;
+}
+
+.choose-team__prev-team img {
+    width: 50px;
+    height: 80px;
+    margin: 0 10px 50px 0;
+}
+
+.choose-team__next-team img {
+    width: 50px;
+    height: 80px;
+    margin: 0 0 50px 10px;
+}
+
+.teams {
+    border: dotted 2px #000;
+    width: 400px;
+    margin: 0 30px 0;
+}
+
+.teams a {
+    text-decoration: none;
+    color: #1e90ff;
+}
+
+.team__team-name {
+    background-color: #add8e6;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+.team__competition {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+    background-color: #dcdcdc;
+}
+
+.separator {
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    font-size: 78px;
+    font-weight: 700;
+    color: #dcdcdc;
+    border: none;
+    margin: 0;
+}
+
+.team__stats-summary {
+    padding: 10px;
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #000;
+}
+
+.team-card-stats {
+    text-align: center;
+    margin:auto;
+}
+
+.team-card-stats__key {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.team-card-stats__value {
+    font-weight: 700;
+    font-size: 16px;
+}

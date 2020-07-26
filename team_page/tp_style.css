@@ -1,0 +1,194 @@
+body {
+    background-image: url(../assets/moroccan-flower-dark.png);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    color: #1e90ff;
+    height: 100%;
+}
+/* Background pattern from Toptal Subtle Patterns */
+
+.page-title {
+    font-size: 28px;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #000080;
+    font-size: 12px;
+    color: #ffdab9;
+    text-align: center;
+    padding-top: 5px;
+    height: 60px;
+    width: 100%;
+}
+
+.navigation {
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 160px;
+    height: 50px;
+    border: 2px solid #6495ed;
+    border-radius: 5px;
+    background-color: #add8e6;
+    text-align: center;
+    font-size: 16px;
+    color: #6495ed;
+    margin: 0 10px 0;
+}
+
+.button:hover {
+    background-color: #87cefa;
+    cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+    font-style: normal;
+    color: #1e90ff;
+}
+
+.player-cards {
+    margin-bottom: 5px;
+    width: 100%;
+    height: 300px;
+}
+
+.player-cards__card {
+    width: 180px;
+    height: 250px;
+    border: 1px solid #000;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.player-cards__card--inactive {
+     z-index: -1;
+     margin-left: -110px;
+ }
+
+.player-cards__card--active {
+    margin-right: 130px;
+    margin-left: 40px;
+}
+
+.player-card__photo {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.player-card__photo img {
+    width: 90px;
+    height: 120px;
+    float: top;
+}
+
+.player-card__name {
+    min-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    border-bottom: 1px solid #000;
+}
+
+.player-card__stats {
+    width: 180px;
+    font-size: 14px;
+    margin: 5px 0 0 5px;
+    font-weight: 700;
+    float: left;
+}
+
+.player-card__stat-key {
+    text-align: left;
+    width: 100px;
+    float: left;
+}
+
+.player-card__stat-value {
+    text-align: center;
+    width: 75px;
+    float: left;
+}
+
+.teams a {
+    text-decoration: none;
+    color: #1e90ff;
+}
+
+.team-name {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.team_crest {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.team_crest img {
+    width: 200px;
+    height: 220px;
+}
+
+.additional-stats {
+    height: 130px;
+    width: 90%;
+    margin: 0 20px 80px 5px;
+    background-color: #dcdcdc;
+    border: 2px solid #000;
+    display: inline-block;
+}
+
+.player-stats {
+    display: inline-block;
+    width: 240px;
+    margin: 0 0 5px 40px;
+}
+
+.player-stats__primary {
+    width: 500px;
+    margin-left: 20px;
+}
+
+.player-stats__secondary {
+    border-left: 1px solid #000;
+}
+
+.player-stats__tertiary {
+    border-left: 1px solid #000;
+}
+
+.player-stats__stat {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.player-stats__stat--key {
+    font-weight: 700;
+    color: #000;
+    margin-left: 5px;
+}
+
+.player-stats__stat--value {
+    font-weight: 500;
+    text-align: right;
+}
